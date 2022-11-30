@@ -11,7 +11,7 @@ function writePassword() {
 }
 
 var possibleChars = "";
-var passwordLength;
+var passwordLength = 0;
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
